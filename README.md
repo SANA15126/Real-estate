@@ -37,54 +37,7 @@ Estate Hub is a mern-stack real estate application. In this app users can create
 ![estate-hub-search](https://github.com/ahmedsemih/MERN-Stack-Real-Estate-App/assets/102798814/314ae60b-d111-4d27-b088-db5d60f3e83c)
 ![estate-hub-estate](https://github.com/ahmedsemih/MERN-Stack-Real-Estate-App/assets/102798814/0ca1cc43-9a72-48af-a77d-294a746e89b2)
 
-## :triangular_flag_on_post: Getting Started
 
-First of all you need to clone the repository and install the dependencies for server and client
-
-```shell
-
-git clone https://github.com/ahmedsemih/MERN-Stack-Real-Estate-App.git
-
-cd client
-
-npm install
-
-cd ..
-
-cd server
-
-npm install
-
-```
-
-After doing this you must assign the following environment variables
-
-for client:
-
-```shell
-
-VITE_CLOUD_NAME - Cloudinary cloud name
-VITE_UPLOAD_PRESET - Cloudinary upload preset
-
-```
-
-for server:
-
-```shell
-
-MONGODB_URI
-JWT_ACCESS_SECRET
-JWT_REFRESH_SECRET
-
-```
-
-And run dev server for both
-
-```shell
-
-npm run dev
-
-```
 
 
 
